@@ -38,7 +38,7 @@ def draw_line(start_x, start_y, end_x, end_y):
         angle = 90 - abs(math.ceil(math.degrees(math.atan2(start_x-end_x, start_y-end_y))))
         if line_id is not None:
             canvas.delete(line_id)
-        line_id = canvas.create_line(start_x, start_y, end_x, end_y, dash=(4, 2))
+        line_id = canvas.create_line(start_x, start_y, end_x, end_y, dash=(4, 2), fill="white")
         window.update()
 
 def is_game_over():

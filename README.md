@@ -1,6 +1,10 @@
 # How To Run
 Run the `main.py` file. On mac, this can be done by opening Terminal, navigating to this folder, and running `python3 main.py`. On PC, the same steps can be performed in Command Prompt, or a similar command line interface.
 
+# Possible Errors
+If you recieve an error saying "No module named X", try running `pip3 install X`, where X is the mentioned module. If X is "tkinter" run `pip3 install tk` rather than `pip3 install tkinter`. Once you've installed the modules, try running `main.py` again.  
+If you recieve an error saying `maximum recursion depth exceeded`, try running the game again. Occasionally, on the first couple of runs, the game will do that.
+
 # How To Play
 Using your cursor, set the direction and the speed of the satellite, as indicted by the length and direction of the dashed line. To launch the satellite, click the left cursor button.
 
