@@ -3,7 +3,9 @@ Run the `main.py` file. On mac, this can be done by opening Terminal, navigating
 
 # Possible Errors
 If you recieve an error saying "No module named X", try running `pip3 install X`, where X is the mentioned module. If X is "tkinter" run `pip3 install tk` rather than `pip3 install tkinter`. Once you've installed the modules, try running `main.py` again.  
+  
 If you recieve an error saying `maximum recursion depth exceeded`, try running the game again. Occasionally, on the first couple of runs, the game will do that.  
+  
 If the game is lagging, try running it a few more times. The lag often goes away after a few runs of `main.py`.
 
 # How To Play
